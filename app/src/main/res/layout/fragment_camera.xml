@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CameraFragment.CameraFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="50dp" >
+
+        <ImageView
+            android:id="@+id/camerawindow"
+            android:layout_marginTop="0dp"
+            android:layout_height="80pt"
+            android:layout_width="match_parent"
+            />
+
+        <Button
+            android:id="@+id/camerabutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/camerawindow"
+
+            android:textSize="10dp"
+            android:text="Capture" />
+
+        <Button
+            android:id="@+id/gallerybutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/camerawindow"
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="89dp"
+            android:textSize="10dp"
+            android:text="Upload from Gallery" />
+
+        <Button
+            android:id="@+id/sendButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Predict"
+            android:layout_below="@id/camerawindow"
+            android:layout_marginTop="0dp"
+            android:textSize="8dp"
+            android:layout_marginLeft="225.712dp"/>
+
+        <TextView
+            android:id="@+id/leafname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sendButton"
+            android:textSize="16dp"
+            android:layout_marginLeft="3dp"
+            android:textColor="@color/white"
+
+            />
+
+        <TextView
+            android:id="@+id/scientificname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/leafname"
+            android:textSize="16dp"
+            android:layout_marginLeft="3dp"
+            android:textColor="@color/white"
+
+            />
+
+        <TextView
+            android:id="@+id/origin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/scientificname"
+            android:textSize="16dp"
+            android:layout_marginLeft="3dp"
+            android:textColor="@color/white"
+
+            />
+
+        <TextView
+            android:id="@+id/type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/origin"
+            android:textSize="16dp"
+            android:layout_marginLeft="3dp"
+            android:textColor="@color/white"
+
+            />
+
+        <TextView
+            android:id="@+id/uses"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/type"
+            android:textSize="16dp"
+            android:layout_marginLeft="3dp"
+            android:textColor="@color/white"
+            android:textAlignment="viewStart"
+            android:justificationMode="inter_word"
+            />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

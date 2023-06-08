@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_lemon"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PlantsFragment.jamun">
+
+    <!-- Leaving space here to add Search button -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:padding="25dp">
+
+        <TextView
+            android:id="@+id/title_lemon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jamun"
+            style="@style/TextAppearance.AppCompat.Light.SearchResult.Title"/>
+
+
+        <ImageView
+            android:id="@+id/image_lemon"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/title_lemon"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/jamun"
+
+            />
+
+        <RelativeLayout
+            android:id="@+id/metadata"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title_lemon"
+            android:layout_marginTop="35dp"
+            android:layout_toRightOf="@+id/image_lemon"
+            android:paddingLeft="20dp"
+            >
+
+            <TextView
+                android:id="@+id/subtitle_lemon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Family: Myrtaceae"
+                style="@style/TextAppearance.AppCompat.Light.SearchResult.Subtitle"/>
+
+
+            <TextView
+                android:id="@+id/subtitle_lemon2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/subtitle_lemon"
+                android:text="Species: S. cumini"
+                android:textStyle="bold"
+                style="@style/TextAppearance.AppCompat.Light.SearchResult.Subtitle"/>
+
+            <TextView
+                android:id="@+id/subtitle_lemon3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/subtitle_lemon2"
+                android:text="Scientific name: Syzygium cumini"
+                android:textStyle="bold"
+                style="@style/TextAppearance.AppCompat.Light.SearchResult.Subtitle"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/body_box"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@+id/image_lemon"
+            android:layout_marginTop="20dp"
+            >
+
+            <TextView
+                android:id="@+id/body_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textAlignment="viewStart"
+                android:justificationMode="inter_word"
+                android:text="Uses:\n\nJamun Increases Haemoglobin
+Since jamun has loads of vitamin C and iron, it is helpful to increase the haemoglobin count.
+The iron content present in jamun works as a blood purifier as well. During the menstrual cycle, women face blood loss, and hence the iron content is beneficial in such situations.
+It’s great for individuals who suffer from jaundice and anaemia due to the high iron content present in it.
+Jamun Keeps the Heart Healthy
+Jamun is beneficial to keep your heart healthy and keep heart issues away. The dietary fibers and antioxidants in Jamun are ideal for regulating cholesterol levels and obstructing plaque formation.
+The fruit contains potassium that helps in preventing diseases like stroke, high blood pressure, and heart problems.
+It also contains other vital nutrients like ellagic acid/ellagitannins, anthocyanins that has considerable amount of anti-inflammatory property. Individuals who consume jamun regularly prevent the arteries from hardening.
+ Jamun Treats Digestive Problems
+Jamun has digestive properties that help with stomach problems.
+The fruit is rich in Vitamin A and C that detoxifies one’s body and treats digestive disorders. It comes with properties that reduce gas formation, thus helping with bloating, flatulence, and constipation.
+" />
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

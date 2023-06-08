@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_lemon"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PlantsFragment.indian_mustard">
+
+    <!-- Leaving space here to add Search button -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:padding="25dp">
+
+        <TextView
+            android:id="@+id/title_lemon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Indian Mustard"
+            style="@style/TextAppearance.AppCompat.Light.SearchResult.Title"/>
+
+
+        <ImageView
+            android:id="@+id/image_lemon"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/title_lemon"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/indian_mustard"
+
+            />
+
+        <RelativeLayout
+            android:id="@+id/metadata"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title_lemon"
+            android:layout_marginTop="35dp"
+            android:layout_toRightOf="@+id/image_lemon"
+            android:paddingLeft="20dp"
+            >
+
+            <TextView
+                android:id="@+id/subtitle_lemon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Family:Brassicaceae"
+                style="@style/TextAppearance.AppCompat.Light.SearchResult.Subtitle"/>
+
+
+            <TextView
+                android:id="@+id/subtitle_lemon2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/subtitle_lemon"
+                android:text="Species:B. Juncea"
+                android:textStyle="bold"
+                style="@style/TextAppearance.AppCompat.Light.SearchResult.Subtitle"/>
+
+            <TextView
+                android:id="@+id/subtitle_lemon3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/subtitle_lemon2"
+                android:text="Scientific name: Brassica juncea"
+                android:textStyle="bold"
+                style="@style/TextAppearance.AppCompat.Light.SearchResult.Subtitle"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/body_box"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@+id/image_lemon"
+            android:layout_marginTop="20dp"
+            >
+
+            <TextView
+                android:id="@+id/body_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textAlignment="viewStart"
+                android:justificationMode="inter_word"
+                android:text="Uses:\n\nThe leaves, seeds, and stems of this mustard variety are edible. The plant appears in some form in African, Bangladeshi, Chinese, Filipino, Italian, Indian, Japanese, Nepali, Pakistani, Korean, Southern and African-American (soul food) cuisines. Cultivars of B. juncea are grown for their greens, and for the production of mustard oil. The mustard condiment made from the seeds of the B. juncea is called brown mustard and is considered to be spicier than yellow mustard. The leaves are used in African cooking, and all plant parts are used in Nepali cuisine, particularly in the mountain regions of Nepal, as well as in the Punjabi cuisine in the northern part of the Indian subcontinent, where a dish called sarson da saag (mustard greens) is prepared.] B. juncea subsp. tatsai, which has a particularly thick stem, is used to make the Nepali pickle called achar, and the Chinese pickle zha cai. This plant is called lai xaak in Assamese and it is cultivated hugely during the winters. It is eaten in any form in Assam and Northeast, be it boiled or added raw in salad." />
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

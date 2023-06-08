@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_lemon"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PlantsFragment.mint">
+
+    <!-- Leaving space here to add Search button -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:padding="25dp">
+
+        <TextView
+            android:id="@+id/title_lemon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mint"
+            style="@style/TextAppearance.AppCompat.Light.SearchResult.Title"/>
+
+
+        <ImageView
+            android:id="@+id/image_lemon"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/title_lemon"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/mint"
+
+            />
+
+        <RelativeLayout
+            android:id="@+id/metadata"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title_lemon"
+            android:layout_marginTop="35dp"
+            android:layout_toRightOf="@+id/image_lemon"
+            android:paddingLeft="20dp"
+            >
+
+            <TextView
+                android:id="@+id/subtitle_lemon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Family: Lamiaceae"
+                style="@style/TextAppearance.AppCompat.Light.SearchResult.Subtitle"/>
+
+
+            <TextView
+                android:id="@+id/subtitle_lemon2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/subtitle_lemon"
+                android:text="Species: Mentha spicata"
+                android:textStyle="bold"
+                style="@style/TextAppearance.AppCompat.Light.SearchResult.Subtitle"/>
+
+            <TextView
+                android:id="@+id/subtitle_lemon3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/subtitle_lemon2"
+                android:text="Scientific name: Mentha"
+                android:textStyle="bold"
+                style="@style/TextAppearance.AppCompat.Light.SearchResult.Subtitle"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/body_box"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@+id/image_lemon"
+            android:layout_marginTop="20dp"
+            >
+
+            <TextView
+                android:id="@+id/body_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textAlignment="viewStart"
+                android:justificationMode="inter_word"
+                android:text="Uses:\n\nIndigestion, biliousness, flatulent colic, summer diarrhea
+Mix fresh leaves juice of mint with a teaspoonful of lime juice and honey. Take this thrice daily.
+Loss of appetite, tastelessness
+Prepare infusion of mint leaves and take 2 teaspoonful three times a day.
+Hyperacidity
+Take 1-2 tsp pudina leaves juice three time a day.
+Painful periods
+Start drinking mint tea few days before expected periods.
+Morning sickness, iron deficiency anemia
+Take fresh mint leaves. Wash properly. Grind leaves in mortar and pestle to extract juice, without adding much water. Mix with lemon juice. In a glass add water, lemon and mint juice. Mix honey as per taste and drink few times a day.
+Tuberculosis, asthma, bronchitis
+Take a teaspoonful of fresh mint juice. Mix 2 teaspoonful of pure malt vinegar and 2 teaspoonful of honey. Now mix this in 100 ml carrot juice. Drink 3 times a day.
+Skin dryness, pimples, acne
+Apply fresh mint juice on the face every night. Wash with plain water next morning.
+Insect stings, eczema, scabies, contact dermatitis
+Apply fresh leaves juice on the affected area.
+Bad breath, gum problems
+Chew fresh leaves of mint.
+" />
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

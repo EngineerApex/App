@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_lemon"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PlantsFragment.lemon">
+
+    <!-- Leaving space here to add Search button -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:padding="25dp">
+
+        <TextView
+            android:id="@+id/title_lemon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lemon"
+            style="@style/TextAppearance.AppCompat.Light.SearchResult.Title"/>
+
+
+        <ImageView
+            android:id="@+id/image_lemon"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/title_lemon"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/lemon"
+
+            />
+
+        <RelativeLayout
+            android:id="@+id/metadata"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title_lemon"
+            android:layout_marginTop="35dp"
+            android:layout_toRightOf="@+id/image_lemon"
+            android:paddingLeft="20dp"
+            >
+
+            <TextView
+                android:id="@+id/subtitle_lemon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Family:Rutaceae"
+                style="@style/TextAppearance.AppCompat.Light.SearchResult.Subtitle"/>
+
+
+            <TextView
+                android:id="@+id/subtitle_lemon2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/subtitle_lemon"
+                android:text="Species:B. Juncea"
+                android:textStyle="bold"
+                style="@style/TextAppearance.AppCompat.Light.SearchResult.Subtitle"/>
+
+            <TextView
+                android:id="@+id/subtitle_lemon3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/subtitle_lemon2"
+                android:text="Scientific name: Citrus limon"
+                android:textStyle="bold"
+                style="@style/TextAppearance.AppCompat.Light.SearchResult.Subtitle"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/body_box"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@+id/image_lemon"
+            android:layout_marginTop="20dp"
+            >
+
+            <TextView
+                android:id="@+id/body_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textAlignment="viewStart"
+                android:justificationMode="inter_word"
+                android:text="Uses:\n\nLowering stroke risk
+, the flavonoids in citrus fruits may help lower the risk of ischemic stroke in women.
+A study of data from nearly 70,000 women over 14 years showed that those who ate the most citrus fruits had a 19% lower risk of ischemic stroke than women who consumed the least.
+Ischemic stroke is the most common type of stroke. It can happen when a blood clot blocks the flow of blood to the brain.
+showed that long term, regular consumption of foods that contain flavonoids might help protect against cancer and cardiovascular disease. However, the study indicated that people who smoked or consumed a lot of alcohol were less likely to benefit.
+Potassium may help lower the risk of stroke. Which foods contain potassium?
+" />
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

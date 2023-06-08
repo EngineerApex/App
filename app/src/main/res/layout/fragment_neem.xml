@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_lemon"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PlantsFragment.neem">
+
+    <!-- Leaving space here to add Search button -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:padding="25dp">
+
+        <TextView
+            android:id="@+id/title_lemon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Neem"
+            style="@style/TextAppearance.AppCompat.Light.SearchResult.Title"/>
+
+
+        <ImageView
+            android:id="@+id/image_lemon"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/title_lemon"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/neem"
+
+            />
+
+        <RelativeLayout
+            android:id="@+id/metadata"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title_lemon"
+            android:layout_marginTop="35dp"
+            android:layout_toRightOf="@+id/image_lemon"
+            android:paddingLeft="20dp"
+            >
+
+            <TextView
+                android:id="@+id/subtitle_lemon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Family: Meliaceae"
+                style="@style/TextAppearance.AppCompat.Light.SearchResult.Subtitle"/>
+
+
+            <TextView
+                android:id="@+id/subtitle_lemon2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/subtitle_lemon"
+                android:text="Species: A. indica"
+                android:textStyle="bold"
+                style="@style/TextAppearance.AppCompat.Light.SearchResult.Subtitle"/>
+
+            <TextView
+                android:id="@+id/subtitle_lemon3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/subtitle_lemon2"
+                android:text="Scientific name: Azadirachta indica"
+                android:textStyle="bold"
+                style="@style/TextAppearance.AppCompat.Light.SearchResult.Subtitle"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/body_box"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@+id/image_lemon"
+            android:layout_marginTop="20dp"
+            >
+
+            <TextView
+                android:id="@+id/body_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textAlignment="viewStart"
+                android:justificationMode="inter_word"
+                android:text="Uses:\n\nNeem leaves are dried in India and placed in cupboards to prevent insects eating the clothes, and also in tins where rice is stored.[13] The flowers are also used in many Indian festivals like Ugadi.
+Neem is a key ingredient in non-pesticidal management (NPM), providing a natural alternative to synthetic pesticides. Neem seeds are ground into powder that is soaked overnight in water and sprayed on the crop. To be effective, it must be applied repeatedly, at least every ten days. Neem does not directly kill insects. It acts as an anti-feedant, repellent, and egg-laying deterrent and thus protects the crop from damage. The insects starve and die within a few days. Neem also suppresses the subsequent hatching of their eggs." />
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

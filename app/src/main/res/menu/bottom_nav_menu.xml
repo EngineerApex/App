@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Camera"
+        android:id="@+id/home"
+        android:icon="@drawable/camera"/>
+
+    <item
+        android:title="Plants"
+        android:id="@+id/plants"
+        android:icon="@drawable/plants"/>
+
+    <item
+        android:title="Diseases"
+        android:id="@+id/diseases"
+        android:icon="@drawable/disease"/>
+
+</menu>

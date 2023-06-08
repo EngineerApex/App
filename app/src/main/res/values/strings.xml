@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">PlantHub</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="diseases_array">
+        <item>Common cold</item>
+        <item>Stomach ache</item>
+        <item>Acne</item>
+        <item>Indigestion</item>
+        <item>Acidity</item>
+        <item>Nausea</item>
+        <item>Diarrhoea</item>
+        <item>Chickenpox</item>
+        <item>Dandruff</item>
+        <item>Heat boils</item>
+        <item>Sore throat</item>
+        <item>Menstrual cramps</item>
+        <!-- Add more disease items as needed -->
+    </string-array>
+
+
+</resources>
